@@ -8,7 +8,7 @@ import MovieProvider from './utils/Contexts/MoiveCtx';
 function App() {
 	return (
 		<MovieProvider>
-			<BRWrapper basename="https://laurathaga.github.io/Movie-App/">
+			<BRWrapper>
 				<div className="container_app">
 					<Header />
 					<div className="routes_body">
