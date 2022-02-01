@@ -37,14 +37,14 @@ const reducer = (state, action) => {
 	}
 };
 
-const useFetch = () => {
+const useFetch = (url) => {
 	const [ { data, error, isLoading }, dispatch ] = React.useReducer(reducer, state);
 
 	React.useEffect(() => {
 		(async () => {
 			dispatch({ type: FETCH_STARTED });
 			try {
-				const fetchData = await fetch('http://localhost:3000/movie');
+				const fetchData = await fetch(url);
 				const data = await fetchData.json();
 				dispatch({ type: FETCH_SUCCESS, payload: data });
 			} catch (e) {
