@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono&display=swap');
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: #111;
+	height: 100vh;
+	width: 100vw;
+	overflow-x: hidden;
+}
+img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+#root {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	justify-content: space-between;
+}
+.col-12 {
+	width: 90%;
+	margin: 0 auto;
+}
+.container_app {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+}
+.routes_body {
+	flex-grow: 1;
+}
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

@@ -1,0 +1,172 @@
+{
+	"movie": [
+		{
+			"id": 1,
+			"name": "Avengers: Endgame",
+			"poster": "https://cdn.europosters.eu/image/750/posters/avengers-endgame-journey-s-end-i73600.jpg",
+			"description": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+			"rating": 9.1,
+			"genre": "fantasy"
+		},
+		{
+			"id": 2,
+			"name": "Pulp Fiction",
+			"poster": "https://cdn.europosters.eu/image/750/posters/pulp-fiction-cover-i1288.jpg",
+			"description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+			"rating": 9.5,
+			"genre": "action"
+		},
+		{
+			"id": 3,
+			"name": "No Time to Die",
+			"poster": "https://www.007.com/wp-content/uploads/2020/09/BOND-Watermarked-Gallery-Portrait_0007_1%EF%BF%BD-Optimised_1296x1920_blk_whtTT_NTTD_DC.jpg",
+			"description": "James Bond has left active service. His peace is short-lived when Felix Leiter, an old friend from the CIA, turns up asking for help, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.",
+			"rating": 8.6,
+			"genre": "action"
+		},
+		{
+			"id": 4,
+			"name": "Jurassic Park",
+			"poster": "https://m.media-amazon.com/images/I/61iF3RSsLsL._AC_.jpg",
+			"description": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose.",
+			"rating": 7.9,
+			"genre": "fantasy"
+		},
+		{
+			"id": 5,
+			"name": "Wonder Woman 1984",
+			"poster": "https://m.media-amazon.com/images/M/MV5BYTlhNzJjYzYtNGU3My00ZDI5LTgzZDUtYzllYjU1ZmU0YTgwXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg",
+			"description": "Diana must contend with a work colleague and businessman, whose desire for extreme wealth sends the world down a path of destruction, after an ancient artifact that grants wishes goes missing.",
+			"rating": 6.1,
+			"genre": "fantasy"
+		},
+		{
+			"id": 6,
+			"name": "Matrix",
+			"poster": "https://images-na.ssl-images-amazon.com/images/I/51oBxmV-dML._AC_.jpg",
+			"description": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+			"rating": 9.8,
+			"genre": "fantasy"
+		},
+		{
+			"id": 7,
+			"name": "John Wick: Chapter 3 - Parabellum",
+			"poster": "https://images-na.ssl-images-amazon.com/images/I/91hVXDVuraL._AC_SL1500_.jpg",
+			"description": "John Wick is on the run after killing a member of the international assassins' guild, and with a $14 million price tag on his head, he is the target of hit men and women everywhere.",
+			"rating": 9.3,
+			"genre": "action"
+		},
+		{
+			"id": 8,
+			"name": "Star Wars: Episode III - Revenge of the Sith",
+			"poster": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/3399dedbffd89d2de0f334ddbccc0f2ab5dcf0c46fb859496c88a3e1dd7e7816._RI_V_TTW_.jpg",
+			"description": "Three years into the Clone Wars, the Jedi rescue Palpatine from Count Dooku. As Obi-Wan pursues a new threat, Anakin acts as a double agent between the Jedi Council and Palpatine and is lured into a sinister plan to rule the galaxy.",
+			"rating": 9.9,
+			"genre": "fantasy"
+		},
+		{
+			"id": 9,
+			"name": "Taxi Driver",
+			"poster": "https://image.posterlounge.com/images/big/1875963.jpg",
+			"description": "A mentally unstable veteran works as a nighttime taxi driver in New York City, where the perceived decadence and sleaze fuels his urge for violent action by attempting to liberate a presidential campaign worker and an underage prostitute.",
+			"rating": 9.5,
+			"genre": "documentary"
+		},
+		{
+			"id": 10,
+			"name": "Dark Knight Rises",
+			"poster": "https://images-na.ssl-images-amazon.com/images/I/71jzMH-kHQL._SY679_.jpg",
+			"description": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City from the brutal guerrilla terrorist Bane.",
+			"rating": 9.8,
+			"genre": "action"
+		},
+		{
+			"id": 11,
+			"name": "Joker",
+			"poster": "https://images-na.ssl-images-amazon.com/images/I/71OIhbUOF-L.jpg",
+			"description": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
+			"rating": 9.2,
+			"genre": "action"
+		},
+		{
+			"id": 12,
+			"name": "Interstellar",
+			"poster": "https://m.media-amazon.com/images/I/516j7Sqay4L._AC_.jpg",
+			"description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+			"rating": 9.4,
+			"genre": "fantasy"
+		},
+		{
+			"id": 13,
+			"name": "Spider-Man",
+			"poster": "https://images-na.ssl-images-amazon.com/images/I/51kzFX8Zr8L._AC_.jpg",
+			"description": "When bitten by a genetically modified spider, a nerdy, shy, and awkward high school student gains spider-like abilities that he eventually must use to fight evil as a superhero after tragedy befalls his family.",
+			"rating": 9.0,
+			"genre": "fantasy"
+		},
+		{
+			"id": 14,
+			"name": "Zack Snyder’s Justice League",
+			"poster": "https://ikigaipop.com/wp-content/uploads/2021/03/Zack-Snyders-Justice-League.jpg",
+			"description": "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.",
+			"rating": 7.7,
+			"genre": "fantasy"
+		},
+		{
+			"id": 15,
+			"name": "Friday",
+			"poster": "https://m.media-amazon.com/images/I/51oKJJ1WXFL._AC_.jpg",
+			"description": "It's Friday, and Craig and Smokey must come up with $200 they owe a local bully or there won't be a Saturday.",
+			"rating": 9.6,
+			"genre": "comedy"
+		},
+		{
+			"id": 16,
+			"name": "Anchorman: The Legend of Ron Burgundy",
+			"poster": "https://m.media-amazon.com/images/M/MV5BMTQ2MzYwMzk5Ml5BMl5BanBnXkFtZTcwOTI4NzUyMw@@._V1_.jpg",
+			"description": "Hotshot television anchorman Ron Burgundy (Will Ferrell) welcomes upstart reporter Veronica Corningstone (Christina Applegate) into the male-dominated world of 1970s broadcast news -- that is, until the talented female journalist begins to outshine Burgundy on air.",
+			"rating": 7.2,
+			"genre": "comedy"
+		},
+		{
+			"id": 17,
+			"name": "Ted",
+			"poster": "https://wereviewmovieslol.files.wordpress.com/2012/12/ted1.jpg",
+			"description": "When John Bennett (Mark Wahlberg) was a little boy, he made a wish that Ted (Seth MacFarlane), his beloved teddy bear, would come alive.",
+			"rating": 6.9,
+			"genre": "comedy"
+		},
+		{
+			"id": 18,
+			"name": "Halloween Kills",
+			"poster": "https://alternativemovieposters.com/wp-content/uploads/2020/08/ColmGeoghegan_HalloweenKills.jpg",
+			"description": "An injured Laurie Strode leads a vigilante mob to hunt down unstoppable killer Michael Myers and end his reign of terror once and for all.",
+			"rating": 8.2,
+			"genre": "horror"
+		},
+		{
+			"id": 19,
+			"name": "Biggie: I Got a Story to Tell",
+			"poster": "https://m.media-amazon.com/images/M/MV5BMmEwM2U2NTYtOTE5My00NWUyLWFjMWMtMDhjNmVlMWNkZTRlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+			"description": "Featuring rare footage and in-depth interviews, this documentary celebrates the life of The Notorious B.I.G. on his journey from hustler to rap king.",
+			"rating": 6.9,
+			"genre": "documentary"
+		},
+		{
+			"id": 20,
+			"name": "It: Chapter Two",
+			"poster": "https://m.media-amazon.com/images/M/MV5BYTJlNjlkZTktNjEwOS00NzI5LTlkNDAtZmEwZDFmYmM2MjU2XkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_.jpg",
+			"description": "Defeated by members of the Losers' Club, the evil clown Pennywise returns 27 years later to terrorize the town of Derry, Maine, once again. Now adults, the childhood friends have long since gone their separate ways. But when people start disappearing, Mike Hanlon calls the others home for one final stand.",
+			"rating": 6.4,
+			"genre": "horror"
+		},
+		{
+			"id": 21,
+			"name": "Hitler, a Career",
+			"poster": "https://m.media-amazon.com/images/M/MV5BMTEwNzM5NDUxODJeQTJeQWpwZ15BbWU3MDUwODIwMzE@._V1_.jpg",
+			"description": "In this documentary by Joachim Fest, the rise and transformation of Adolf Hitler is examined in great detail. Video clips from the period give an unflinching view into the leader's uncanny powers of persuasion and show the overall state of mind of the German people, who were desperate for a new public identity. This film especially examines Hitler's early years in the public eye, and it details the long journey he made from being a mediocre artist to one of history's most hated monsters.",
+			"rating": 7.5,
+			"genre": "documentary"
+		}
+	]
+}
