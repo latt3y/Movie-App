@@ -10,6 +10,14 @@
 html {
 	scroll-behavior: smooth;
 }
+::-webkit-scrollbar {
+	background: transparent;
+	width: 10px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: purple;
+	border-radius: 10px;
+}
 
 body {
 	font-family: 'Open Sans', sans-serif;

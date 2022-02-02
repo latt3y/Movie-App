@@ -7,7 +7,6 @@
 .cr_img_wrapper {
 	height: 100vh;
 	width: 100vw;
-	filter: grayscale(.5);
 	background-color: rgba(0, 0, 0, .7);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -92,7 +91,8 @@
 
 @media all and (max-width: 500px) {
 	.cr_content {
-		margin-left: .7rem;
+		margin: 0 auto;
+		margin-top: 7rem;
 	}
 	.cr_content p {
 		margin-bottom: 2rem;
