@@ -19,14 +19,14 @@
 	position: relative;
 }
 .header_logo h1::before {
-	content: 'X';
-	color: red;
+	content: 'W';
+	color: rgb(134, 1, 134);
 	text-decoration: underline;
 	position: absolute;
-	font-size: 4rem;
+	font-size: 3rem;
 	left: 0;
 	top: 0;
-	transform: translate(-30px, -20px);
+	transform: translate(-40px, -14px);
 }
 
 .header_list {
@@ -49,10 +49,12 @@
 	color: white;
 	text-decoration: none;
 	font-size: 1.5rem;
+	font-weight: bold;
 	transition: all .3s ease-in-out;
+	letter-spacing: 1px;
 }
 .header_list a:hover {
-	color: rgb(240, 29, 93);
+	color: rgb(182, 0, 182);
 }
 .header_search {
 	position: relative;
@@ -101,7 +103,7 @@
 	color: white;
 }
 .dropdown_menu:hover {
-	background-color: rgb(240, 29, 93);
+	background-color: indigo;
 	color: #f4f4f4;
 }
 .burger-menu {

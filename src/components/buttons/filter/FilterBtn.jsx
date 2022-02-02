@@ -1,9 +1,9 @@
 import './filter.css';
 
-const FilterBtn = ({ children, text }) => {
+const FilterBtn = ({ children, text, handleOnClick }) => {
 	return (
 		<div className="filter-btn">
-			<button>
+			<button value={text} onClick={handleOnClick}>
 				{children} {text}
 			</button>
 		</div>

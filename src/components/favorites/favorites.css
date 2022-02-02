@@ -1,0 +1,56 @@
+.favorites_container {
+	height: 100%;
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	align-items: end;
+}
+.favorites_grid {
+	max-height: 70%;
+	min-width: 100%;
+	padding: .7rem;
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+	place-items: center;
+	overflow-y: scroll;
+}
+.favorites_grid::-webkit-scrollbar {
+	display: none;
+}
+
+.favorites_container_flex {
+	display: flex;
+	height: 100%;
+	width: 90%;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.fav-header {
+	width: fit-content;
+	color: whitesmoke;
+	margin-bottom: 1rem;
+}
+.favBtn {
+	padding: 10px 30px;
+	font-size: 1rem;
+	background-color: rgb(182, 0, 182);
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all .3s ease-in-out;
+}
+.favBtn:hover {
+	transform: scale(.98);
+	font-size: .98rem;
+}
+
+@media all and (max-width: 930px) {
+	.favorites_grid {
+		overflow-y: scroll;
+	}
+}

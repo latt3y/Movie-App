@@ -22,7 +22,7 @@
 	align-items: center;
 }
 .cr_wrapper::before {
-	content: '© Xmovies is an Application that comes with the latest Movies and TvShows. Is Created with ReactJS and Vanilla CSS. Its designed to offer good and fast user experience. The project is still in development. Thanks for checking it out ♥';
+	content: '© Wmovies is an Application that comes with the latest Movies and TvShows. Is Created with ReactJS and Vanilla CSS. Its designed to offer good and fast user experience. The project is still in development. Thanks for checking it out ♥';
 	position: absolute;
 	font-size: .8rem;
 	bottom: 30px;
@@ -62,9 +62,11 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 1.2rem;
+	font-size: 1.3rem;
+	font-weight: bold;
 	border-radius: 5px;
 	height: 3.2rem;
+	background-color: #f4f4f4;
 	cursor: pointer;
 	transition: transform .3s ease-in-out;
 }
@@ -73,8 +75,8 @@
 }
 .play-btn {
 	font-size: 3rem !important;
-	color: 'white';
-	background-color: rgb(240, 29, 93);
+	color: white;
+	background-color: rgb(182, 0, 182) !important;
 }
 
 @media all and (max-width: 1450px) {
@@ -105,7 +107,6 @@
 		width: 21rem;
 	}
 	.cr_wrapper::before {
-		content: '© Xmovies is an Application that comes with the latest Movies and TvShows. Is Created with ReactJS and Vanilla CSS. Its designed to offer good and fast user experience. The project is still in development. Thanks for checking it out ♥';
 		font-size: .8rem;
 		bottom: 10px;
 		left: 1rem;

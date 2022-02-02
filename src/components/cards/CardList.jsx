@@ -4,9 +4,10 @@ import useScroll from '../../utils/customHooks/useScroll';
 import './card.css';
 import { MovieCtx } from '../../utils/Contexts/MoiveCtx';
 
-const CardList = () => {
+const CardList = ({ currFilter }) => {
 	const movies = React.useContext(MovieCtx);
 	const scroll = useScroll();
+	const filteredItems = movies?.data.filter(movie => movie.type === currFilter);
 
 	return (
 		<div className="card_wrapper" ref={scroll}>

@@ -10,9 +10,11 @@
 	border-radius: 4px;
 	cursor: pointer;
 	font-size: 1rem;
+	background-color: #f4f4f4;
+	transition: all .3s ease-in-out;
 }
 .filter-btn button:hover {
-	background-color: rgb(240, 29, 93);
+	background-color: rgb(136, 0, 136);
 	color: white;
 }
 @media all and (max-width: 500px) {
