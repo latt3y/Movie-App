@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import './header.css';
 import { MovieCtx } from '../../utils/Contexts/MoiveCtx';
 import { VscSearch } from 'react-icons/vsc'
+import DropDown from '../dropdown/DropDown';
 
 const Header = () => {
 	const { data } = React.useContext(MovieCtx);
@@ -26,7 +27,7 @@ const Header = () => {
 					className='burger-menu' 
 					onClick={() => setMenubar(prev => !prev)} 
 				>
-					|||
+					{!menuBar ? '|||' : 'X'}
 				</button>
 			</div>
 
@@ -37,10 +38,10 @@ const Header = () => {
 					<NavLink to="/">Home</NavLink>
 				</li>
 				<li>
-					<NavLink to="#" >TVshows</NavLink>
+					<DropDown text='TvShows' genre='action'/>
 				</li>
 				<li>
-					<NavLink to="#" >Movies</NavLink>
+					<DropDown text="Movies"/>
 				</li>
 				<li>
 					<NavLink to="/favorites" >My List</NavLink>

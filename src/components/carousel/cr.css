@@ -100,10 +100,11 @@
 		letter-spacing: 1px;
 		inline-size: 23rem;
 		word-break: break-all;
+		display: none;
 	}
 	.cr_content h1 {
 		margin-bottom: 1rem;
-		font-size: 1.8rem;
+		font-size: 1.5rem;
 		width: 21rem;
 	}
 	.cr_wrapper::before {
