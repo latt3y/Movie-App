@@ -1,4 +1,4 @@
-# Movie Application ==> https://xmovies.netlify.app/
+# Movie Application ==> https://wmovies.netlify.app/
 
 # Xmovies is an Application that comes with the latest Movies and Tvshows. 
 
