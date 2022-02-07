@@ -17,7 +17,7 @@
 	background-color: rgb(136, 0, 136);
 	color: white;
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 750px) {
 	.filter-btn button {
 		display: flex;
 		align-items: center;

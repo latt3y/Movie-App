@@ -89,7 +89,7 @@
 	}
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 750px) {
 	.cr_content {
 		margin: 0 auto;
 		margin-top: 7rem;

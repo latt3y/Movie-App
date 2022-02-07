@@ -43,7 +43,7 @@ footer p span {
 	transform: rotate(360deg) scale(1.7);
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 750px) {
 	footer {
 		min-height: 10rem;
 		padding: 1rem;

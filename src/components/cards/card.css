@@ -84,7 +84,7 @@
 .fav-btn:disabled {
 	color: gold;
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 750px) {
 	.card {
 		width: 9rem;
 		height: 13rem;

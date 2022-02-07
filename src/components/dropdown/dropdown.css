@@ -45,3 +45,8 @@
 .dropdown_btn:hover {
 	color: purple;
 }
+@media all and (max-width: 1450px) {
+	.dropdown_wrapper {
+		transform: translate(-40%, calc(var(--height) + 5px));
+	}
+}
