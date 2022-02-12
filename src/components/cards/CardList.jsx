@@ -12,7 +12,7 @@ const CardList = ({ currFilter }) => {
 	return (
 		<div className="card_wrapper" ref={scroll}>
 			{movies.error && <p>{movies.error}</p>}
-			{movies.isLoading ? <h1>Loading...</h1> : movies.data.map((m) => <Card {...m} key={m.id} />)}
+			{movies.isLoading ? <h1>Loading...</h1> : filteredItems.map((m) => <Card {...m} key={m.id} />)}
 		</div>
 	);
 };

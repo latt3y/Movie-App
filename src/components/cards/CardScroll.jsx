@@ -5,7 +5,7 @@ import { MovieFiltersCtx } from '../../utils/Contexts/MoiveCtx';
 
 const CardScroll = () => {
 	const currFilter = React.useContext(MovieFiltersCtx);
-	let genres = [ 'Upcoming Movies', 'Popular', "What's hot", 'Coming this week' ];
+	let genres = [ `Upcoming ${currFilter}`, 'Popular', "What's hot"];
 
 	return (
 		<React.Fragment>
