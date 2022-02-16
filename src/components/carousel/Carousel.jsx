@@ -29,7 +29,6 @@ const Courusel = () => {
 						<button className="play-btn">
 							<BsPlayFill />
 						</button>
-						<button>Add to your List</button>
 					</div>
 				</div>
 			</div>

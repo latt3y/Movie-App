@@ -1,9 +1,9 @@
 .dropdown_wrapper {
-	--height: 400px;
+	--height: 300px;
 	position: absolute;
-	min-width: 1000px;
+	min-width: 100px;
 	max-height: var(--height);
-	transform: translate(-50%, calc(var(--height) + 5px));
+	transform: translate(-40%, 270px);
 	overflow-y: scroll;
 	background-color: #111;
 	color: white;
@@ -21,13 +21,14 @@
 .dropdown_option {
 	flex-basis: 15%;
 	max-width: 100%;
-	max-height: 100px;
-	line-height: 100px;
+	max-height: 40px;
+	line-height: 40px;
 	text-align: center;
 	border: .2px solid rgba(255, 255, 255, .1);
 	border-radius: 5px;
 	transition: all .2s ease-in-out;
 	cursor: pointer;
+	font-size: .8rem;
 }
 .dropdown_option:hover {
 	background-color: purple;
@@ -47,6 +48,6 @@
 }
 @media all and (max-width: 1450px) {
 	.dropdown_wrapper {
-		transform: translate(-40%, calc(var(--height) + 5px));
+		transform: translate(-40%, 270px);
 	}
 }

@@ -1,10 +1,8 @@
 import React from 'react';
 import './dropdown.css';
-import { MovieCtx } from '../../utils/Contexts/MoiveCtx';
 
 const DropDown = (props) => {
 	const [ isOpen, setIsOpen ] = React.useState(false);
-	const movies = React.useContext(MovieCtx);
 	const genres = [
 		'drama',
 		'action',
@@ -29,7 +27,6 @@ const DropDown = (props) => {
 		'anime',
 		'space western'
 	];
-	//[ ...new Set(movies.data.map((movie) => movie.genre)) ];
 
 	return (
 		<div>

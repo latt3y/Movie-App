@@ -1,12 +1,12 @@
 import React from 'react';
 import './card.css';
 import { SetFavMovieCtx, FavMovieCtx } from '../../utils/Contexts/MoiveCtx';
-import { BiAddToQueue } from 'react-icons/bi';
+import { useNavigate } from 'react-router-dom';
 
 const Card = ({ description, genre, id, name, poster, rating, isFav }) => {
 	//isFav prop comes from FavoritesPage and indicates the favorite Cards, not the regular cards
-
 	const [ clicked, setClicked ] = React.useState(false);
+	const navigate = useNavigate();
 	const setFavorites = React.useContext(SetFavMovieCtx);
 	const favMoviesList = React.useContext(FavMovieCtx);
 
@@ -21,7 +21,7 @@ const Card = ({ description, genre, id, name, poster, rating, isFav }) => {
 	};
 
 	return (
-		<div className="card">
+		<div className="card" onClick={() => navigate(`/${id}`)}>
 			<div className="img_wrapper" style={{ backgroundImage: `url(${poster})` }}>
 				{!isFav ? (
 					<button

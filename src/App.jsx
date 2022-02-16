@@ -4,22 +4,28 @@ import Footer from './components/footer/Footer';
 import MainPage from './pages/MainPage';
 import FavoritesPage from './pages/FavoritesPage';
 import MovieProvider from './utils/Contexts/MoiveCtx';
+import ErrorPage from './pages/404';
+import Error from './components/error/Error';
+import Showcase from './pages/Showcase';
 
 function App() {
 	return (
 		<MovieProvider>
 			<BRWrapper>
-				<div className="container_app">
-					<Header />
-					<div className="routes_body">
-						<Routes>
-							<Route path="/" exact element={<MainPage />} />
-							<Route path="/favorites" element={<FavoritesPage />} />
-							<Route />
-						</Routes>
+				<Error>
+					<div className="container_app">
+						<Header />
+						<div className="routes_body">
+							<Routes>
+								<Route path="/" exact element={<MainPage />} />
+								<Route path="/favorites" element={<FavoritesPage />} />
+								<Route path="/:id" element={<Showcase />}/>
+								<Route path="*" element={<ErrorPage />}/>
+							</Routes>
+						</div>
+						<Footer />
 					</div>
-					<Footer />
-				</div>
+				</Error>
 			</BRWrapper>
 		</MovieProvider>
 	);
