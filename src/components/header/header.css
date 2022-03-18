@@ -17,10 +17,11 @@
 }
 .header_logo h1 {
 	position: relative;
+	cursor: pointer;
 }
 .header_logo h1::before {
 	content: 'W';
-	color: rgb(134, 1, 134);
+	color:#f4f4f4;
 	text-decoration: underline;
 	position: absolute;
 	font-size: 3rem;
@@ -51,11 +52,12 @@
 	text-decoration: none;
 	font-size: 1.5rem;
 	font-weight: bold;
-	transition: all .3s ease-in-out;
+	transition: all .1s ease-in-out;
 	letter-spacing: 1px;
 }
 .header_list a:hover {
-	color: rgb(182, 0, 182);
+	color: rgb(212, 212, 212);
+	border-bottom: 4px solid rgb(212, 212, 212);
 }
 .header_search {
 	position: relative;
@@ -76,6 +78,11 @@
 	width: 18rem;
 	border-bottom: 2px solid rgba(255, 255, 255, .7);
 }
+.no__result{
+	color: #f4f4f4;
+	text-align: center;
+}
+
 .header_search input:focus,
 .header_search input:active {
 	outline: none;

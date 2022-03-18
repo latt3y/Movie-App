@@ -8,7 +8,6 @@
 	background-blend-mode: multiply;
 	transition: transform .3s ease-in-out;
 	cursor: pointer;
-	overflow: hidden;
 	position: relative;
 }
 .card::after {
@@ -20,7 +19,7 @@
 	font-weight: bold;
 	border-radius: 5px;
 	color: black;
-	background-color: white;
+	background-color:#f4f4f4;
 	top: 10px;
 	right: 10px;
 	text-align: center;
@@ -45,6 +44,9 @@
 .img_wrapper:hover .card_body {
 	opacity: 1;
 }
+.card_scroll{
+	margin-bottom: 1rem;
+}
 .card_scroll_header {
 	color: white;
 }
@@ -52,7 +54,7 @@
 .card_wrapper {
 	height: 18rem;
 	display: flex;
-	gap: .5rem;
+	gap: 1rem;
 	justify-content: space-between;
 	width: 100%;
 	overflow-y: hidden;
@@ -65,22 +67,29 @@
 	display: none;
 }
 .fav-btn {
-	position: absolute;
-	top: 5px;
-	left: 5px;
+	display: inline-block;
 	background: transparent;
 	color: #f4f4f4;
 	font-size: 1rem;
 	cursor: grab;
-	display: none;
 	border: none;
+	font-size: .8rem;
 }
+.card__options__wrapper{
+	max-width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 5px;
+	font-size: .8rem;
+}
+.card__options__wrapper p {
+	color: white;
+}
+
 .fav-btn:active {
 	cursor: grabbing;
 }
-.card:hover .fav-btn {
-	display: block;
-}
+
 .fav-btn:disabled {
 	color: gold;
 }

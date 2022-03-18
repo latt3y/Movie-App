@@ -5,11 +5,11 @@ import { MovieFiltersCtx } from '../../utils/Contexts/MoiveCtx';
 
 const CardScroll = () => {
 	const currFilter = React.useContext(MovieFiltersCtx);
-	let genres = [ `Upcoming ${currFilter}`, 'Popular', "What's hot"];
+	let topic = [ `Upcoming ${currFilter}`, 'Popular', "What's hot"];
 
 	return (
 		<React.Fragment>
-			{genres.map((g) => {
+			{topic.map((g) => {
 				return (
 					<div key={g} className="card_scroll col-12">
 						<h2 className="card_scroll_header">{g}</h2>

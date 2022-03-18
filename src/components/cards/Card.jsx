@@ -21,23 +21,23 @@ const Card = ({ description, genre, id, name, poster, rating, isFav }) => {
 	};
 
 	return (
-		<div className="card" onClick={() => navigate(`/${id}`)}>
-			<div className="img_wrapper" style={{ backgroundImage: `url(${poster})` }}>
-				{!isFav ? (
-					<button
-						className="fav-btn"
-						value={id}
-						disabled={clicked}
-						onClick={handleOnClick}
-						title="Add to favorites"
-					>
-						★
-					</button>
-				) : (
-					<button className="fav-btn" value={id} onClick={handleRemoveFav} title="Remove from favorites">
-						x
-					</button>
-				)}
+		<div className="card__wrapper" >
+			<div className="card" onClick={() => navigate(`/${id}`)}>
+				<div className="img_wrapper" style={{ backgroundImage: `url(${poster})` }}>
+				</div>
+			</div>
+			<div className="card__options__wrapper" >
+				<button
+					className='fav-btn'
+					value={id}
+					disabled={clicked}
+					onClick={!isFav ? handleOnClick : handleRemoveFav}
+					title="Add to favorites"
+				>
+					{isFav ? 'X' : '★'}
+				</button>
+				<p>{genre}</p>
+				<p>R: {rating}</p>
 			</div>
 		</div>
 	);

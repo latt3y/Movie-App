@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import './header.css';
 import { MovieCtx } from '../../utils/Contexts/MoiveCtx';
 import { VscSearch } from 'react-icons/vsc'
@@ -10,18 +10,25 @@ const Header = () => {
 	const [ input, setInput ] = React.useState('');
 	const [ searchValue, setSearchValue ] = React.useState([]);
 	const [ menuBar, setMenubar ] = React.useState(false);
-	
+	const navigate = useNavigate();
+
+	const closeMenu = () => setMenubar(false);
 
 	const handleOnChange = (e) => {
 		setInput(e.target.value);
 		let	SV = data?.filter((movie) => movie.name.replace(/ /g, '').toLowerCase().includes(input.replace(/ /g, '').toLowerCase()));
-		setSearchValue(SV)
+		setSearchValue(SV);
 	};
 
 	return (
 		<header className="header_container">
 			<div className="header_logo">
-				<h1>MOVIES</h1>
+				<h1 
+					onClick={() => navigate('/')}
+				>
+					MOVIES
+				</h1>
+
 				{/* Mobile only */}
 				<button 
 					className='burger-menu' 
@@ -35,7 +42,7 @@ const Header = () => {
 
 			<ul className={`header_list ${menuBar ? 'isOpen' : ''}`}>
 				<li>
-					<NavLink to="/">Home</NavLink>
+					<NavLink to="/" onClick={closeMenu} >Home</NavLink>
 				</li>
 				<li>
 					<DropDown text='TvShows' genre='action'/>
@@ -44,7 +51,7 @@ const Header = () => {
 					<DropDown text="Movies"/>
 				</li>
 				<li>
-					<NavLink to="/favorites" >My List</NavLink>
+					<NavLink to="/favorites" onClick={closeMenu}>My List</NavLink>
 				</li>
 			</ul>
 
@@ -60,7 +67,7 @@ const Header = () => {
 											<p>{movie.name}</p>						
 										</li>
 									)
-								}) : <p>Didnt find anything</p>
+								}) : <p className="no__result" >No results</p>
 								}
 							</ul>
 					}

@@ -14,8 +14,9 @@
 	transition: all .3s ease-in-out;
 }
 .filter-btn button:hover {
-	background-color: rgb(136, 0, 136);
-	color: white;
+	background-color: rgba(255,255,255, .8);
+	transform: scale(1.07);
+	color: black;
 }
 @media all and (max-width: 750px) {
 	.filter-btn button {

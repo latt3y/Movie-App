@@ -19,7 +19,9 @@ const MovieProvider = ({ children }) => {
 			<SetFavMovieCtx.Provider value={setFavorites}>
 				<FavMovieCtx.Provider value={favorites}>
 					<MovieFiltersCtx.Provider value={filter}>
-						<MovieSetFilterCtx.Provider value={setFilter}>{children}</MovieSetFilterCtx.Provider>
+						<MovieSetFilterCtx.Provider value={setFilter}>
+							{children}
+						</MovieSetFilterCtx.Provider>
 					</MovieFiltersCtx.Provider>
 				</FavMovieCtx.Provider>
 			</SetFavMovieCtx.Provider>
