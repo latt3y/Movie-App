@@ -15,9 +15,11 @@ const ShowcaseComponent = ({id}) => {
                 <div className="showcase__content" > 
                     <h1>{MOVIE.name}</h1>
                     <p className="showcase__content__desc" >{MOVIE.description}</p>
-                    <p className='showcase__content__rating' >Imbd - <span>{MOVIE.rating}</span> / 10</p>
-                    <p className='showcase__content__genre' >Genre  <span>{MOVIE.genre}</span></p>
-                    <p className='showcase__content__type' >{MOVIE.type}</p>
+                    <div className="showcase__content__attr__wrapper" >
+                        <p className='showcase__content__rating' >Imbd - <span>{MOVIE.rating}</span> / 10</p>
+                        <p className='showcase__content__genre' >Genre  <span>{MOVIE.genre}</span></p>
+                        <p className='showcase__content__type' >{MOVIE.type}</p>
+                    </div>
                 </div>
             </div>
         </div>

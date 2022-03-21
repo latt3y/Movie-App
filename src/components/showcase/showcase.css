@@ -52,6 +52,13 @@
     font-size: 1.4rem;
     font-variant-caps: all-small-caps;
 }
+.showcase__content__attr__wrapper{
+    max-width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
 @media all and (max-width: 750px){
     .showcase__container{
@@ -61,7 +68,7 @@
         width: 90%;
         flex-direction: column;
         align-items: center;
-        gap: 1rem;
+        flex-basis: 50%;
     }
     .showcase__poster{
         height: 250px;
@@ -72,13 +79,12 @@
         justify-content: space-between;
     }
     .showcase__content h1 {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         margin: 0 auto 1rem;
         
     }
     .showcase__content__desc{
-        margin-bottom: 1rem;
-        padding: .5rem;
+        margin: .2rem 0;
     }
     .showcase__content__type{
         margin: .5rem 0;
@@ -88,5 +94,11 @@
     .showcase__content__type,
     .showcase__content__desc{
         font-size: .85rem;
+    }
+    
+    .showcase__content__attr__wrapper{
+        justify-content: space-between;
+        max-width: 100%;
+        padding: .5rem 0;
     }
 }

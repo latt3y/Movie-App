@@ -37,8 +37,8 @@
 .favBtn {
 	padding: 10px 30px;
 	font-size: 1rem;
-	background-color: rgb(182, 0, 182);
-	color: white;
+	background-color: #f4f4f4;
+	color: #333;
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
