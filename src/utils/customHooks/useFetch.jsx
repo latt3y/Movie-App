@@ -11,7 +11,8 @@ const state = {
 };
 
 const reducer = (state, action) => {
-	switch (action.type) {
+	const { payload, type } = action;
+	switch (type) {
 		case FETCH_STARTED:
 			return {
 				...state,
@@ -21,7 +22,7 @@ const reducer = (state, action) => {
 		case FETCH_SUCCESS:
 			return {
 				...state,
-				data: action.payload,
+				data: payload,
 				isLoading: false
 			};
 
@@ -29,7 +30,7 @@ const reducer = (state, action) => {
 			return {
 				...state,
 				isLoading: false,
-				error: action.payload
+				error: payload
 			};
 
 		default:
