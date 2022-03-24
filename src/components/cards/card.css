@@ -35,6 +35,7 @@
 	background-blend-mode: darken;
 	background-size: cover;
 	background-position: center center;
+	object-fit: cover;
 }
 .card_body {
 	color: white;

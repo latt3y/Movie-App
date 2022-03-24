@@ -6,6 +6,7 @@ import FavoritesPage from './pages/FavoritesPage';
 import MovieProvider from './utils/Contexts/MoiveCtx';
 import ErrorPage from './pages/404';
 import Error from './components/error/Error';
+import GenrePage from './pages/Genre';
 import Showcase from './pages/Showcase';
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
 							<Routes>
 								<Route path="/" exact element={<MainPage />} />
 								<Route path="/favorites" element={<FavoritesPage />} />
-								<Route path="/:id" element={<Showcase />}/>
+								<Route path="movies/:id" element={<Showcase />}/>
+								<Route path="/genres/:genre" element={<GenrePage />} />
 								<Route path="*" element={<ErrorPage />}/>
 							</Routes>
 						</div>

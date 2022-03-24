@@ -1,0 +1,24 @@
+.genre__container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+}
+.genre__wrapper{
+    flex-basis: 70%;
+    max-height: 50%;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(6, 1fr);
+}
+.genre__center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.genre__error__msg{
+    color: white;
+}

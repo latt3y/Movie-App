@@ -22,7 +22,7 @@ const Card = ({ description, genre, id, name, poster, rating, isFav }) => {
 
 	return (
 		<div className="card__wrapper" >
-			<div className="card" onClick={() => navigate(`/${id}`)}>
+			<div className="card" onClick={() => navigate(`/movies/${id}`)}>
 				<div className="img_wrapper" style={{ backgroundImage: `url(${poster})` }}>
 				</div>
 			</div>
