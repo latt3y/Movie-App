@@ -42,6 +42,10 @@ footer p span {
 	transform: rotate(360deg) scale(1.7);
 }
 
+.social_links li a {
+	color: #f4f4f4;
+}
+
 @media all and (max-width: 750px) {
 	footer {
 		min-height: 8rem;

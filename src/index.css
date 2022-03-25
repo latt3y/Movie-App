@@ -15,8 +15,8 @@ html {
 	width: 10px;
 }
 ::-webkit-scrollbar-thumb {
-	background-color: purple;
-	border-radius: 10px;
+	background-color: rgb(255,255,255);
+	border-radius: 100%;
 }
 
 body {

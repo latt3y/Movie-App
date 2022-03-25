@@ -22,3 +22,18 @@
 .genre__error__msg{
     color: white;
 }
+
+@media all and (max-width: 1450px) {
+    .genre__wrapper{
+        gap: 1rem;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media all and (max-width: 750px) {
+    .genre__wrapper{
+        flex-basis: 1;
+        gap: .7rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

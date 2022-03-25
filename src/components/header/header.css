@@ -120,7 +120,7 @@
 
 @media all and (max-width: 1450px) {
 	.header_container {
-		padding: 1rem 0 0 0;
+		padding: .5rem 0 0 0;
 	}
 	.header_list {
 		justify-content: flex-start;
@@ -143,6 +143,7 @@
 	.header_container {
 		width: 100%;
 		flex-direction: column;
+		background: rgba(0, 0, 0, 1);
 	}
 	.header_logo {
 		justify-content: space-between;

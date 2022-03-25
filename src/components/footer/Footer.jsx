@@ -10,13 +10,13 @@ const Footer = () => {
 			</p>
 			<ul className="social_links">
 				<li>
-					<BsGithub />
+					<a href="https://github.com/laurathaga/Movie-App" target="_blank"><BsGithub /></a>
 				</li>
 				<li>
-					<BsTwitter />
+					<a href="#" ><BsTwitter /></a>
 				</li>
 				<li>
-					<BsLinkedin />
+					<a href="#" ><BsLinkedin /></a>
 				</li>
 			</ul>
 		</footer>
