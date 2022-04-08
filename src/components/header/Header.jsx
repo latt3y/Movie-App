@@ -4,6 +4,7 @@ import './header.css';
 import { MovieCtx } from '../../utils/Contexts/MoiveCtx';
 import { VscSearch } from 'react-icons/vsc'
 import DropDown from '../dropdown/DropDown';
+import useWindow from '../../utils/customHooks/useWindow';
 
 const Header = () => {
 	const { data } = React.useContext(MovieCtx);
@@ -11,9 +12,10 @@ const Header = () => {
 	const [ searchValue, setSearchValue ] = React.useState([]);
 	const [ menuBar, setMenubar ] = React.useState(false);
 	const navigate = useNavigate();
-
+	const window = useWindow();
+	const selectClass = window.width === 750 ? 'setBlock' : 'setAbsolute';
+	
 	const closeMenu = () => setMenubar(false);
-
 	const handleOnChange = (e) => {
 		setInput(e.target.value);
 		let	SV = data?.filter((movie) => movie.name.replace(/ /g, '').toLowerCase().includes(input.replace(/ /g, '').toLowerCase()));
@@ -38,17 +40,15 @@ const Header = () => {
 				</button>
 			</div>
 
-			
-
 			<ul className={`header_list ${menuBar ? 'isOpen' : ''}`}>
 				<li>
 					<NavLink to="/" onClick={closeMenu} >Home</NavLink>
 				</li>
 				<li>
-					<DropDown text='TvShows' genre='action'/>
+					<DropDown text='TvShows' getClass={selectClass} />
 				</li>
 				<li>
-					<DropDown text="Movies"/>
+					<DropDown text="Movies" getClass={selectClass} />
 				</li>
 				<li>
 					<NavLink to="/favorites" onClick={closeMenu}>My List</NavLink>

@@ -7,6 +7,7 @@
 	width: 90%;
 	min-height: 5rem;
 	display: flex;
+	border-radius: 5px;
 }
 .header_logo {
 	flex-basis: 20%;
@@ -143,7 +144,6 @@
 	.header_container {
 		width: 100%;
 		flex-direction: column;
-		background: rgba(0, 0, 0, 1);
 	}
 	.header_logo {
 		justify-content: space-between;
@@ -166,7 +166,7 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		background: rgba(0, 0, 0, 1);
+		background: rgba(0, 0, 0,0.3);
 		display: none;
 		z-index: 3;
 	}

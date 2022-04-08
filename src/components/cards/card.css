@@ -96,7 +96,7 @@
 }
 @media all and (max-width: 750px) {
 	.card {
-		width: 100%;
+		width: 11rem;
 		height: 13rem;
 	}
 	.card_wrapper {
